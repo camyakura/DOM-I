@@ -40,3 +40,42 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
 };
 
 console.log('project wired!')
+
+const nav = document.querySelectorAll("nav a");
+const nav1 = document.querySelector("nav a");
+const nav2 =nav1.nextElementSibling;
+const nav3 =nav2.nextElementSibling;
+const nav4 =nav3.nextElementSibling;
+const nav5 =nav4.nextElementSibling;
+const nav6 =nav5.nextElementSibling;
+
+const logo = document.querySelector("#logo-image");
+const title = document.querySelector("h1");
+
+const button = document.querySelector("button");
+
+const ctaImage = document.querySelector("#cta-img");
+
+const features = document.querySelector("h4:nth-of-type(1)");
+const featureText = features.nextElementSibling;
+
+const about = document.querySelector("h4:nth-of-type(2)")
+const aboutText = about.nextElementSibling;
+
+const middleImage = document.querySelector(".middle-img");
+
+const services = document.querySelector("h4:nth-of-type(3)");
+const servicesText = services.nextElementSibling;
+
+const product = document.querySelector("h4:nth-of-type(4)");
+const productText = product.nextElementSibling;
+
+const vision = document.querySelector("h4:nth-of-type(5)");
+const visionText = nextElementSibling;
+
+const contact = document.querySelector(".contact h4");
+const address = contact.nextElementSibling;
+const phone = address.nextElementSibling;
+const email = phone.nextElementSibling;
+
+const copyright = document.querySelector("footer a")
